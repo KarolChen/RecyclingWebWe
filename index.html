@@ -1,67 +1,214 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
-      <h1 style="font-family:serif;" align="middle">Recycling</h1>
-      <link rel="stylesheet" href="main.css" type="text/css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Recycling</title>
+  <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
+  <body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">Recycling</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resources">Resources</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-  <body bgcolor="#D3D3D3">
-      <div id="nav" class="nav">
-          <a class="active" href="#home"><i class="fa fa-home"></i>  Home</a>
-          <a href="about.html"><i class="fa fa-line-chart"></i>  About</a>
-          <a href="resources.html"><i class="fa fa-recycle"></i>  Resources</a>
-      </div>
+    </section>
 
+
+<section id="home">
+  <div class="container">
     <div class="row">
-        <div class="column">
-          <img src="https://media.fromthegrapevine.com/assets/images/2016/10/shutterstock_448263469%20med.jpg.824x0_q71_crop-scale.jpg" width="400" height="280" onclick="myFunction(this);">
-        </div>
-        <div class ="column">
-            <img src="http://rubysun.ca/wp-content/uploads/2018/02/plastic-1024x681.jpeg" width="400" height="280" onclick="myFunction(this);">
-        </div>
-        <div class = "column">
-            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/20/10/istock-629554844.jpg" width="400" height="280" onclick="myFunction(this);">
-        </div>
-
-        <div class ="container1">
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-          <img id="expandedImg" style="width:100%">
-          <div id="imgtext"></div>
-        </div>
-
-
-        <script type="text/javascript">
-          function myFunction(imgs){
-            var expandedImg = document.getElementById("expandedImg");
-            var imgText = document.getElementById("imgtext");
-            expandImg.src = imgs.src;
-            imgText.innerHTML = imgs.alt;
-            expandImg.parentElement.style.display = "block";
-          }
-
-        </script>
+      <div class="col-md-6">
+        <p class="promo-title">Plastic Pollution</p>
+        <p> About 8 million pieces of plastics end up in our ocean every year. Most of these plastics will last in our enviroment for 450 years. Since 1950, the plastics
+        that have been produced world wide was estimated to be 8.8 billion tons. </p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://media.fromthegrapevine.com/assets/images/2016/10/shutterstock_448263469%20med.jpg.824x0_q71_crop-scale.jpg" class="img-fluid">
+      </div>
 
     </div>
 
-    <div class="current">
-    <h2>Current Plastic Situation</h2>
-    <h4>How much plastic and waste do we produced?</h4>
-    <p>In 1950 the world produced only 2 million tonnes per year.
-      <br>By 2015, annual production had increased nearly 200-fold,
-      <br>reaching 381 million tonnes.
-      <br>In 2010, primary plastic production was 270 million tonnes,
-      <br>yet plastic waste was 275 million tonnes.</p>
-    <h4> How much oil do we use to make plastic?</h4>
-      <p>Estimates vary by source, but tend to converge on a range
-        <br>between 4 to 8 percent of global oil consumption.</p>
+  </div>
+</section>
+
+<section id=about>
+  <div class="container">
+      <h1>WHAT CAN YOU DO?</h1>
+    <div class="row text-center">
+      <div class="col-md-4 about">
+        <img src="https://i.ya-webdesign.com/images/recycle-clipart-recycling-sign-1.png" class="about-img">
+        <h4>Reduce</h4>
+        <p>One way to help the enviroment is to reduce plastic waste. For this you should try to be more
+        careful about the way you buy. Reduce the amount of over-packaged goods, if possible buy products in bulk. Reduce the amount
+      of plastic bags and plastic bottles you use by changing to reusable bags and bottles</p>
       </div>
+      <div class="col-md-4 about">
+        <img src="https://i.ya-webdesign.com/images/recycle-clipart-recycling-sign-1.png" class="about-img">
+        <h4>Reuse</h4>
+        <p>Second way to help the enviroment is to reuse plastic waste. For this you should try to reuse products for plastic container
+        to store food in other ways. Reuse your grocery bags and avoid buying more from the store if possible.</p>
+      </div>
+      <div class="col-md-4 about">
+        <img src="https://i.ya-webdesign.com/images/recycle-clipart-recycling-sign-1.png" class="about-img">
+        <h4>Recycle</h4>
+        <p>Third way to help the enviroment is to recycle your plastics. For this you should seperate your recyclables. When buying producst
+        try to buy products made from recycled material. </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<section id="stats">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>Plastic pollution is a world-wide problem. As a developed country we contribute to the problem of plastic waste. This issue is becoming apparent and it shows in lower recycling rate. According to the World Economic Forum over the past 50 years plastic production has doble. Finding the ways to manage the plastic waste is daunting even for the wealthy nation. The first step to solve this issue is to know the exactly number human wasted everyday</p>
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Year</th>
+            <th>Global Plastic Production</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>1950</td>
+            <td>2000000</td>
+          </tr>
+          <tr>
+            <td>1960</td>
+            <td>8000000</td>
+          </tr>
+          <tr>
+            <td>1970</td>
+            <td>35000000</td>
+          </tr>
+          <tr>
+            <td>1980</td>
+            <td>70000000</td>
+          </tr>
+          <tr>
+            <td>1990</td>
+            <td>120000000</td>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>213000000</td>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td>313000000</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-md-6">
+        <img src="https://ourworldindata.org/uploads/2019/09/Pathway-of-plastic-to-ocean.png" class="img-fluid">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="resources">
+  <div class="container">
+    <h1>RECYCLING RESOURCES</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://ourworldindata.org/uploads/2018/07/Plastics-by-polymer-type-01-768x867.png" class="img-fluid">
+      </div>
+
+      <div class="col-md-6">
+        <ul>
+          <li>Cut out non-essential plastics where possible. For example, reduce the usage of sigle-use plastic water bottles and if possible buy a reusable water bottle.</li>
+          <li>Avoid using plastic straws and instead interchange between metal straws or bamboo straws </li>
+          <li>If you can replace single-use plastics with long-term, sustainable alternatives then substitute</li>
+          <li>Reuse plastic waste with your own DIY inventions by doing so you are able to reduce the amount of plastic that gets throw out</li>
+        </ul>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAiqRYJJ6bubndePdvIT_xPHHFJuoGVk2dY7pWrhmJmD4CGaJJcQ&s" class="img-fluid">
+        </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="calculator">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>CALCULATE CARBON FOOTPRINT</h3>
+          Plastic Bottle: <input type="text" id="num1">
+          <br>
+          Plastic Bag: <input type="text" id="num2">
+          <br>
+          Bottle lids: <input type="text" id="num3">
+          <br>
+          Takeway Container: <input type="text" id="num4">
+          <br>
+          Shampoo Bottle: <input type="text" id="num5">
+          <br>
+          <button onclick="calculate()" class="btn btn-primary">Calculate</button>
+          <h4 id="answer"></h4>
+
+          <script>
+              function calculate(){
+                var num1=document.getElementById("num1").value;
+                var num2=document.getElementById("num2").value;
+                var num3=document.getElementById("num3").value;
+                var num4=document.getElementById("num4").value;
+                var num5=document.getElementById("num5").value;
+
+                var result=parseFloat(num1*82.2)+parseFloat(num2*65.5)+parseFloat(num3*50.4)+parseFloat(num4*30.2)+parseFloat(num5*22.3);
+                  if(!isNaN(result)){
+                    document.getElementById("answer").innerHTML="Carbon foot print "+ result;
+                  }
+              }
+
+          </script>
+        </div>
+      </div>
+
+  </div>
+
+</section>
+
+
+
 
 
   </body>
-
-
 </html>
